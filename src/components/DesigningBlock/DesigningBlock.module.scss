@@ -1,0 +1,49 @@
+.container {
+    max-width: 1046px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 57px;
+        margin: 0px 0px 20px 0px;
+    }
+    .about {
+        max-width: 500px;
+        font-weight: 500;
+        color: #737373;
+        line-height: 20px;
+    }
+}
+.desblocks {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 7px;
+    padding: 0px 15px;
+    .item {
+        padding: 20px;
+        background-color: white(102, 29, 29);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 0 1 25%;
+        margin: 0px -20px;
+        .count {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 57px;
+            
+        }
+    }
+
+}

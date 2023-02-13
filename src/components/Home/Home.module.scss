@@ -1,0 +1,39 @@
+.body_container {
+    max-width: 1046px;
+    margin: 0 auto;
+    h1 {
+        font-size: 58px;
+        font-weight: 800;
+        line-height: 80px;
+        color: #252B42;
+    }
+    .text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #737373;
+    }
+}
+.home {
+    padding: 184px 0px 0px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.main {
+    max-width: 509px;
+    position: relative;
+    z-index: 4;
+    
+    & >*:not(:last-child){
+        margin: 0px 0px 35px 0px;
+    }
+.btn {
+    display: flex;
+    :not(:last-child) {
+        margin-right: 15px;
+}
+}
+}
+

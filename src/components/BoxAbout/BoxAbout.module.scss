@@ -1,0 +1,46 @@
+.boxItem > *:not(:last-child) {
+    margin: 0px 0px 20px 0px
+}
+.container {
+    max-width: 1046px;
+    margin: 0 auto;
+    
+}
+.boxAbout {
+    padding-top: 80px;
+    position: relative;
+    z-index: 4;
+    margin: 80px 5px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    .boxItem {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0px -15px;
+        flex: 0 1 33.333%;
+        padding: 35px;
+        box-shadow: 0px 13px 19px rgba(0,0,0,0.07);
+        background-color: white;
+        flex-wrap: nowrap;
+        @media screen and (max-width:782px) {
+            flex: 1 1 100%;
+            margin: 5px -7px;
+          }
+    }
+    @media screen and (max-width:782px) {
+        flex-wrap: wrap;
+      }
+}
+.boxTitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.boxText {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #737373;
+}
